@@ -1,0 +1,22 @@
+{
+  "name": "the-weather-right-here",
+  "version": "1.0.0",
+  "description": "This is the weather right here app based on Joey Lee's the weather here app",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "location",
+    "map"
+  ],
+  "author": "Christian Addy",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.1"
+  }
+}

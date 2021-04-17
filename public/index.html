@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <p>
+        <span>Switch to <a href="./logs/check-in.html"> logs page</a></span> 
+    </p>
+ 
+    <p>
+        Longitude: <span id="longitude"></span>&deg;<br>
+        Latitude: <span id="latitude"></span>&deg;<br>
+        <button type="submit" id="submit">SUBMIT</button>
+    </p>
+     
+    <p>
+        We are recording temperatures of around <span id="temp"></span>,
+        with a high of about <span id="temp-high"></span>,
+        and a low around <span id="temp-low"></span>. 
+        On the ground, it actually feels like <span id="feels-like-temp"></span>
+        In general, the weather conditions at the moment is <span id="weather-description"></span> 
+        in <span id="location"></span>.
+
+    </p>
+
+    <p id="aq_info" hidden>
+    The concentration of
+      particulate matter (<span id="aq_parameter"></span>) is
+      <span id="aq_value"></span> <span id="aq_units"></span> last read on
+      <span id="aq_date"></span>.
+    </p>
+
+    <p id="aq_notAvailable" hidden> 
+        The air quality information for <span id="location"></span> is not available 
+    </p>
+
+    <p>
+        Date and current time : <span id="current-time"></span>
+    </p>
+
+    <script src="main.js"></script>
+</body>
+</html>
