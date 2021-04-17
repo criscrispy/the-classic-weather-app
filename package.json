@@ -4,7 +4,8 @@
   "description": "This is the weather right here app based on Joey Lee's the weather here app",
   "main": "backend.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend.js"
   },
   "keywords": [
     "weather",
