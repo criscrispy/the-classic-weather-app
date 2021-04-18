@@ -8,5 +8,5 @@ Upon clicking submit, your approximate latitude and logitude information is plot
 You can view your checkins and weather info on the leaflet map by click on the link to the logs page. 
 
 You can also overide your geolocation information from your browser dev tools. Refresh the page to allow \
-the app to set a log point in the leaflet js \
+the app to set a log point in the leaflet js.
 
