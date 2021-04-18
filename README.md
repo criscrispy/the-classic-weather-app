@@ -1,6 +1,7 @@
 # Project : the-classic-weather-app
 
 This project is inspired by Joey Lee's **["the-weather-here"](https://github.com/joeyklee/the-weather-here)** app.
+Check out the **[demo](https://fathomless-temple-94572.herokuapp.com/)** of my version hosted on heroku.
 
 ## Description
 The app first prompts you to "check-in", then serves you the weather info based on your location.
