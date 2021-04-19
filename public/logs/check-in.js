@@ -1,5 +1,5 @@
 
-const mymap = L.map('checkinMap').setView([0, 0], 1);
+const mymap = L.map('checkinMap').setView([60.161, 24.915], 4);
 const attribution =
     '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 //const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
